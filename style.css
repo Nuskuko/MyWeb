@@ -10,16 +10,17 @@ nav{
     height: 20vh;
     width: 100vw;
     float: left;
+    text-align: center;
 }
 .Blok_lewy,.Blok_lewy2{
     background-color: aqua;
     height: 20vh;
     width: 50vw;
-    float: left;
 }
+
 .Blok_prawy{
-        background-color: black;
-    height: 20vh;
+    background-color: black;
+    height: 40vh;
     width: 50vw;
     float: left;
 }
@@ -27,5 +28,8 @@ nav{
 footer{
     background-color: blueviolet;
     color: white;
+        height: 20vh;
+    width: 100vw;
     clear: both;
+    text-align: center;
 }
