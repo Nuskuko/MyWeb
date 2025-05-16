@@ -9,36 +9,18 @@ nav{
     color: white;
     height: 20vh;
     width: 100vw;
-    float: left;
     text-align: center;
-}
-main{
-    display: grid;
-    grid-template-areas:1fr 1fr 1fr;
-    grid-template-areas: 
-    "blok_lewy blok_lewy blok_prawy"
-    "blok_lewy2 blok_lewy2 blok_prawy";
-
-
 }
 .Blok_lewy,.Blok_lewy2{
     background-color: aqua;
     height: 20vh;
-    width: 50vw;
-}
-.Blok_lewy{
-    grid-area: blok_lewy;
-}
-.Blok_lewy2{
-    grid-area: blok_lewy2;
+    width: 50%;
 }
 
 .Blok_prawy{
-     grid-area: blok_prawy;
     background-color: black;
     height: 40vh;
-    width: 50vw;
-    float: left;
+    width: 50%;
 }
 
 footer{
@@ -46,6 +28,6 @@ footer{
     color: white;
     height: 20vh;
     width: 100vw;
-    clear: both;
     text-align: center;
+    clear: both;
 }
