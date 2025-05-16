@@ -1,0 +1,31 @@
+header{
+    background-color: steelblue;
+    color: white;
+    height: 20vh;
+    width: 100vw;
+}
+nav{
+    background-color: greenyellow;
+    color: white;
+    height: 20vh;
+    width: 100vw;
+    float: left;
+}
+.Blok_lewy,.Blok_lewy2{
+    background-color: aqua;
+    height: 20vh;
+    width: 50vw;
+    float: left;
+}
+.Blok_prawy{
+        background-color: black;
+    height: 20vh;
+    width: 50vw;
+    float: left;
+}
+
+footer{
+    background-color: blueviolet;
+    color: white;
+    clear: both;
+}
